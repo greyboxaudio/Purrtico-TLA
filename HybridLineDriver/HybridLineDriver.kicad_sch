@@ -5,9 +5,9 @@
 	(uuid "8744b698-520b-403d-9dc8-5ad840d7038f")
 	(paper "A4")
 	(title_block
-		(title "TLA Input/Output")
+		(title "TLA Input & Output")
 		(date "2024-05-09")
-		(rev "03")
+		(rev "01")
 		(company "Greybox Audio")
 	)
 	(lib_symbols
