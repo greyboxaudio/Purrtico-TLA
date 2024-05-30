@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Purrtico TLA Input & Output")
-		(date "2024-05-10")
+		(date "2024-05-30")
 		(rev "01")
 		(company "Greybox Audio")
 	)
@@ -2700,16 +2700,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 185.42) (xy 171.45 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec25474-ab31-4040-bdb8-532ed93aa19e")
-	)
-	(wire
-		(pts
 			(xy 209.55 59.69) (xy 213.36 59.69)
 		)
 		(stroke
@@ -2757,6 +2747,16 @@
 			(type default)
 		)
 		(uuid "356b34f2-a889-4b19-ae78-fbbb3b87a4b2")
+	)
+	(wire
+		(pts
+			(xy 154.94 175.26) (xy 156.21 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b7c9c9-dafe-4757-881a-29c4745118de")
 	)
 	(wire
 		(pts
@@ -3120,6 +3120,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 185.42) (xy 158.75 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71608cc9-0fae-4271-aa4a-d34e80bbf970")
+	)
+	(wire
+		(pts
 			(xy 95.25 80.01) (xy 93.98 80.01)
 		)
 		(stroke
@@ -3387,6 +3397,16 @@
 			(type default)
 		)
 		(uuid "936d4905-900f-4187-8871-f8496b2cd227")
+	)
+	(wire
+		(pts
+			(xy 166.37 185.42) (xy 171.45 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9472557d-5659-461c-8b81-095e74d95642")
 	)
 	(wire
 		(pts
@@ -4040,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 175.26) (xy 152.4 177.8)
+			(xy 147.32 175.26) (xy 147.32 177.8)
 		)
 		(stroke
 			(width 0)
@@ -4107,16 +4127,6 @@
 			(type default)
 		)
 		(uuid "f3042cea-832c-46d7-afe1-f0f85f995ae1")
-	)
-	(wire
-		(pts
-			(xy 156.21 175.26) (xy 152.4 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3f0e8e6-559b-4b04-b369-f45e36fef332")
 	)
 	(wire
 		(pts
@@ -5647,6 +5657,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 151.13 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2563c2c7-2d81-48d5-89ea-c0bf1a25a7c0")
+		(property "Reference" "R11"
+			(at 151.13 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 151.13 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 151.13 173.482 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "736098e2-5b1b-4f96-8322-f6ad5f665927")
+		)
+		(pin "2"
+			(uuid "12390c15-9b65-43c6-b810-ead0df3e5ab5")
+		)
+		(instances
+			(project "Purrtico_TLA"
+				(path "/8744b698-520b-403d-9dc8-5ad840d7038f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 135.89 24.13 270)
 		(unit 1)
@@ -6767,7 +6845,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 130.81 179.07 0)
+		(at 124.46 189.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6776,7 +6854,7 @@
 		(dnp no)
 		(uuid "57b084f9-2b53-4aca-a239-d83930cfd6c0")
 		(property "Reference" "#PWR014"
-			(at 130.81 182.88 0)
+			(at 124.46 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,7 +6863,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 130.81 173.99 0)
+			(at 124.46 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 179.07 0)
+			(at 124.46 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 179.07 0)
+			(at 124.46 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,7 +6889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 130.81 179.07 0)
+			(at 124.46 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8139,7 +8217,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 140.97 179.07 0)
+		(at 134.62 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8147,7 +8225,7 @@
 		(dnp no)
 		(uuid "8cbade5f-256e-4758-8fd9-d0109e0f2d88")
 		(property "Reference" "#FLG05"
-			(at 140.97 177.165 0)
+			(at 134.62 187.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8234,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 140.97 173.99 0)
+			(at 134.62 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +8242,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 179.07 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8173,7 +8251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 179.07 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,7 +8260,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 140.97 179.07 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,34 +8625,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 119.38 179.07 0)
+		(lib_id "Device:R")
+		(at 162.56 185.42 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9ca47af6-e94a-4359-83a9-193f6d0434d9")
-		(property "Reference" "#FLG01"
-			(at 119.38 180.975 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 119.38 184.15 0)
+		(uuid "9b1c53bd-177a-4286-9a6a-d75e7e0ee055")
+		(property "Reference" "R32"
+			(at 162.56 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 119.38 179.07 0)
+		(property "Value" "1k"
+			(at 162.56 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 162.56 187.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8583,7 +8660,76 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 179.07 0)
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a053df-7c38-4153-b722-8238017e90da")
+		)
+		(pin "2"
+			(uuid "7aa8d621-1268-467b-a706-2a5147f152e8")
+		)
+		(instances
+			(project "Purrtico_TLA"
+				(path "/8744b698-520b-403d-9dc8-5ad840d7038f"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 113.03 189.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ca47af6-e94a-4359-83a9-193f6d0434d9")
+		(property "Reference" "#FLG01"
+			(at 113.03 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 113.03 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8592,7 +8738,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 119.38 179.07 0)
+			(at 113.03 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8615,7 +8761,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 152.4 177.8 0)
+		(at 147.32 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8624,7 +8770,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ec73353-0b9d-4509-a23d-2abb77beea5e")
 		(property "Reference" "#PWR015"
-			(at 152.4 184.15 0)
+			(at 147.32 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8633,7 +8779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 182.88 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +8787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 177.8 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 177.8 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 177.8 0)
+			(at 147.32 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9017,7 +9163,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 130.81 179.07 0)
+		(at 124.46 189.23 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9026,7 +9172,7 @@
 		(dnp no)
 		(uuid "b241c34a-b726-4cd1-9e54-272d4a83afc1")
 		(property "Reference" "#FLG02"
-			(at 130.81 180.975 0)
+			(at 124.46 191.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,7 +9181,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 130.81 184.15 0)
+			(at 124.46 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9043,7 +9189,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 179.07 0)
+			(at 124.46 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 179.07 0)
+			(at 124.46 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9061,7 +9207,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 130.81 179.07 0)
+			(at 124.46 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11492,7 +11638,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 140.97 179.07 0)
+		(at 134.62 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11501,7 +11647,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbb4a4b7-4cd2-4ddb-bca7-6e73b5d7992f")
 		(property "Reference" "#PWR016"
-			(at 140.97 185.42 0)
+			(at 134.62 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +11656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 184.15 0)
+			(at 134.62 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11518,7 +11664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 179.07 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11527,7 +11673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 179.07 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11536,7 +11682,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 179.07 0)
+			(at 134.62 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11559,7 +11705,7 @@
 	(symbol
 		(lib_name "+15V_1")
 		(lib_id "power:+15V")
-		(at 119.38 179.07 0)
+		(at 113.03 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11568,7 +11714,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbca5b16-0e43-4ebe-a6d5-67501c38d011")
 		(property "Reference" "#PWR07"
-			(at 119.38 182.88 0)
+			(at 113.03 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11577,7 +11723,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 119.38 173.99 0)
+			(at 113.03 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11585,7 +11731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 179.07 0)
+			(at 113.03 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +11740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 179.07 0)
+			(at 113.03 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 119.38 179.07 0)
+			(at 113.03 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
