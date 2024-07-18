@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Purrtico TLA Input & Output")
-		(date "2024-05-30")
+		(date "2024-07-18")
 		(rev "01")
 		(company "Greybox Audio")
 	)
@@ -6775,8 +6775,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 121.92 128.27 0)
-		(mirror y)
+		(at 121.92 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6784,7 +6783,7 @@
 		(dnp no)
 		(uuid "5629b346-3cc8-406d-926d-794484adf302")
 		(property "Reference" "J3"
-			(at 119.38 128.2699 0)
+			(at 119.38 130.8101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6792,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 119.38 130.8099 0)
+			(at 119.38 128.2701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6802,7 +6801,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 121.92 128.27 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,7 +6810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 128.27 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6820,7 +6819,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 121.92 128.27 0)
+			(at 121.92 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6911,8 +6910,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 30.48 173.99 0)
-		(mirror y)
+		(at 30.48 173.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6920,7 +6918,7 @@
 		(dnp no)
 		(uuid "5d6a3a1c-2e5d-47a2-aa19-0309951c9da9")
 		(property "Reference" "J2"
-			(at 27.94 172.7199 0)
+			(at 27.94 175.2601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +6927,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 27.94 175.2599 0)
+			(at 27.94 172.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10129,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 172.72 44.45 0)
+		(at 172.72 46.99 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10139,7 +10138,7 @@
 		(dnp no)
 		(uuid "ccf68553-f30b-4a49-a5d5-d0cceea27058")
 		(property "Reference" "J5"
-			(at 175.26 44.4499 0)
+			(at 175.26 46.9901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10147,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 175.26 46.9899 0)
+			(at 175.26 44.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10157,7 +10156,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 172.72 44.45 0)
+			(at 172.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 44.45 0)
+			(at 172.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10174,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 172.72 44.45 0)
+			(at 172.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
