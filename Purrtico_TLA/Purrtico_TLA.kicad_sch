@@ -5,8 +5,8 @@
 	(uuid "8744b698-520b-403d-9dc8-5ad840d7038f")
 	(paper "A4")
 	(title_block
-		(title "Purrtico TLA Input & Output")
-		(date "2024-07-18")
+		(title "Purrtico TLA")
+		(date "2024-08-02")
 		(rev "01")
 		(company "Greybox Audio")
 	)
@@ -3561,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 90.17) (xy 229.87 90.17)
+			(xy 217.17 90.17) (xy 229.87 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3821,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 143.51) (xy 204.47 143.51)
+			(xy 198.12 143.51) (xy 210.82 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3991,7 +3991,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 143.51) (xy 229.87 143.51)
+			(xy 218.44 143.51) (xy 229.87 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4321,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 90.17) (xy 203.2 90.17)
+			(xy 198.12 90.17) (xy 209.55 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4632,7 +4632,7 @@
 	)
 	(text "CMRR\nTrim"
 		(exclude_from_sim no)
-		(at 221.234 111.506 0)
+		(at 223.266 110.998 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5092,7 +5092,7 @@
 		(dnp no)
 		(uuid "0b904784-73b1-4bae-829d-19ab6ebcc5b1")
 		(property "Reference" "U1"
-			(at 162.56 144.78 0)
+			(at 162.56 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5100,7 +5100,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 162.56 142.24 0)
+			(at 162.56 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,7 +5607,7 @@
 		(dnp no)
 		(uuid "1d3df74a-9611-4f49-a058-fdf4682a74be")
 		(property "Reference" "U1"
-			(at 205.74 93.98 0)
+			(at 205.232 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5615,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 205.74 91.44 0)
+			(at 205.232 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6280,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 143.51 90)
+		(at 214.63 143.51 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6289,7 +6289,7 @@
 		(dnp no)
 		(uuid "2c2ab0ab-f085-4990-bc0b-83ecbed84bcc")
 		(property "Reference" "R15"
-			(at 208.28 149.86 90)
+			(at 214.63 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6297,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 208.28 147.32 90)
+			(at 214.63 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6305,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 208.28 141.732 90)
+			(at 214.63 141.732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 143.51 0)
+			(at 214.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6323,7 +6323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 143.51 0)
+			(at 214.63 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6623,7 +6623,7 @@
 		(dnp no)
 		(uuid "3a8eb92d-95d7-4efe-b1e3-bccca3034907")
 		(property "Reference" "U1"
-			(at 177.8 91.44 0)
+			(at 177.292 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6631,7 +6631,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 177.8 88.9 0)
+			(at 177.292 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7808,7 +7808,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 90.17 90)
+		(at 213.36 90.17 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7817,7 +7817,7 @@
 		(dnp no)
 		(uuid "6bf2c6f0-4361-4d37-b495-8cc10073d92f")
 		(property "Reference" "R5"
-			(at 207.01 96.52 90)
+			(at 213.36 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,7 +7825,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 207.01 93.98 90)
+			(at 213.36 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,7 +7833,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 207.01 88.392 90)
+			(at 213.36 88.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7842,7 +7842,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 90.17 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7851,7 +7851,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.01 90.17 0)
+			(at 213.36 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8090,7 +8090,7 @@
 		(dnp no)
 		(uuid "72617f66-7dd7-40f4-90cb-d8f7d3aa2de9")
 		(property "Reference" "U1"
-			(at 205.74 147.32 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8098,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 205.74 144.78 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11499,7 @@
 		(dnp no)
 		(uuid "f4d11295-2b20-41a3-b015-5c3af9ac772d")
 		(property "Reference" "U2"
-			(at 97.79 57.15 0)
+			(at 97.536 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11507,7 +11507,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 97.79 54.61 0)
+			(at 97.536 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11674,7 +11674,7 @@
 		(dnp no)
 		(uuid "f6df70f9-1e6a-4c31-8a8d-b0be82b35aeb")
 		(property "Reference" "U2"
-			(at 102.87 100.33 0)
+			(at 102.87 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +11682,7 @@
 			)
 		)
 		(property "Value" "OPA1679"
-			(at 102.87 97.79 0)
+			(at 102.87 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11911,7 +11911,7 @@
 		(dnp no)
 		(uuid "fbad76d0-ab7d-47d4-befb-8b4bb69b46a3")
 		(property "Reference" "U2"
-			(at 163.83 167.64 0)
+			(at 163.83 172.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
