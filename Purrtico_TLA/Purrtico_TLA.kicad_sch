@@ -4681,9 +4681,9 @@
 		)
 		(uuid "c4828a46-8d5a-46b5-82a5-dee0833f262f")
 	)
-	(text "-3 dB 0°"
+	(text "-3 dB"
 		(exclude_from_sim no)
-		(at 172.72 41.91 0)
+		(at 163.322 43.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6029,7 +6029,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 151.13 175.26 270)
+		(at 140.97 132.08 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6038,15 +6038,15 @@
 		(fields_autoplaced yes)
 		(uuid "2563c2c7-2d81-48d5-89ea-c0bf1a25a7c0")
 		(property "Reference" "R11"
-			(at 151.13 168.91 90)
+			(at 140.97 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0R"
-			(at 151.13 171.45 90)
+		(property "Value" "1k"
+			(at 140.97 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6054,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 151.13 173.482 90)
+			(at 140.97 130.302 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 175.26 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 175.26 0)
+			(at 140.97 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8068,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 132.08 270)
+		(at 151.13 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8076,7 +8076,7 @@
 		(dnp no)
 		(uuid "7475135c-afaa-409d-b8ea-558f5ad7f430")
 		(property "Reference" "R33"
-			(at 142.875 128.905 90)
+			(at 152.908 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,8 +8084,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1k"
-			(at 142.875 126.365 90)
+		(property "Value" "0R"
+			(at 152.4 172.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8094,7 +8094,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 140.97 130.302 90)
+			(at 151.13 173.482 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8103,7 +8103,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 132.08 0)
+			(at 151.13 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8112,7 +8112,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 132.08 0)
+			(at 151.13 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
