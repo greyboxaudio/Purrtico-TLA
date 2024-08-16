@@ -1,0 +1,23 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*
+G04 #@! TF.CreationDate,2024-08-16T09:26:53+02:00*
+G04 #@! TF.ProjectId,Purrtico_TLA,50757272-7469-4636-9f5f-544c412e6b69,01*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.4) date 2024-08-16 09:26:53*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 #@! TA.AperFunction,Profile*
+%ADD10C,0.100000*%
+G04 #@! TD*
+G04 APERTURE END LIST*
+D10*
+X58750000Y-32550000D02*
+X158750000Y-32550000D01*
+X158750000Y-82550000D01*
+X58750000Y-82550000D01*
+X58750000Y-32550000D01*
+M02*
